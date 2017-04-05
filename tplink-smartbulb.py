@@ -81,7 +81,6 @@ try:
 	print "Sent:     ", cmd
         data = sock_udp.recv(1024)
 
-	print "Sent:     ", cmd
         print "Received: ", decrypt(data[4:])
 
 
