@@ -7,6 +7,6 @@ If you're interested in the full article, that's also here: [Reverse Engineering
 I won't get elaborate with the usage. It's the same as the tplink-smartplug.py program.
 Invoke like this:
 
-`./tplink-smarthome.py -t <ip> [-c <cmd> || -j <json>]`
+`./tplink-smartbulb.py -t <ip> [-c <cmd> || -j <json>]`
 
 The available commands are on, off and info. Anything else you'll have to send as JSON. If you want more in depth commands just go visit Lubomir's github, seriously. It's a good resource.
